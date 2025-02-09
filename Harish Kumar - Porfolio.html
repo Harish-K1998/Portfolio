@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Viewer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .viewer {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        iframe, embed {
+            width: 90%;
+            height: 90%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Harish Kumar</h1>
+    </div>
+    <div class="viewer">
+        <!-- Replace 'sample.pdf' with your file URL -->
+        <!-- <iframe src="sample.pdf" title="File Viewer"></iframe> -->
+        <!-- <iframe src="C:\Users\USER\Documents\TiText\FPfile\Paper1093mki" title="File Viewer"></iframe> -->
+        <!-- <iframe src="C:\Users\USER\Documents\TiText\FPfile\sample.pdf" title="File Viewer"></iframe> -->
+        <iframe src="https://drive.google.com/file/d/1rfy7md-6T9830HH3SzW3nBaVDJZojYAz/view?usp=drive_link" title="File Viewer"></iframe>
+
+
+    </div>
+</body>
+</html>
